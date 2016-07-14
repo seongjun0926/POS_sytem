@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="blog.naver.com.seongjun0926.pos" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TableActivity">
+
+        </activity>
+        <activity android:name=".MenuActivity">
+
+        </activity>
+        <activity android:name=".Table_Select_Activity">
+
+        </activity>
+        <activity android:name=".Table_Menu_Activity">
+
+        </activity>
+        <activity android:name=".ComputeActivity">
+
+        </activity>
+    </application>
+
+</manifest>

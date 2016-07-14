@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".TableActivity">
+    <item
+        android:id="@+id/menu_add"
+        android:title="메뉴 추가"/>
+    <item
+        android:id="@+id/menu_show"
+        android:title="메뉴 수정"/>
+    <item
+        android:id="@+id/menu_compute"
+        android:title="계 산"/>
+</menu>
